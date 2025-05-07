@@ -23,3 +23,19 @@ h2 {
 .password-validations {
   min-width: 200px;
 }
+
+.validation {
+  font-size: 1rem;
+}
+
+.validation-icon {
+  margin-right: 10px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
