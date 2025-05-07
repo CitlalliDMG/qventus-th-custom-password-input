@@ -34,15 +34,15 @@ Welcome to my solution proposal for the Qventus Take Home challenge! In this rep
 ### Technical Requirements
 
 - [x] Using the React framework
-- [ ] React component should accept a list of password requirements as a prop:
-  - [ ] The list of requirements can be flexible (has 1 or more)
-  - [ ] The following password requirements must be implemented and available in the library:
-    - [ ] Has one or more of these special characters: !@#$%^&\*
-    - [ ] Has a number / digit
-    - [ ] Has an uppercase letter
-    - [ ] Has NO identical consecutive letters
-  - [ ] The component should be styled as shown in the GIF, but should be able to be extended
-  - [ ] There should be a way for us to validate your implementation - this could be automated testing, a reference build, whatever you’re comfortable with.
+- [x] React component should accept a list of password requirements as a prop:
+  - [x] The list of requirements can be flexible (has 1 or more)
+  - [x] The following password requirements must be implemented and available in the library:
+    - [x] Has one or more of these special characters: !@#$%^&\*
+    - [x] Has a number / digit
+    - [x] Has an uppercase letter
+    - [x] Has NO identical consecutive letters
+  - [x] The component should be styled as shown in the GIF, but should be able to be extended
+  - [x] There should be a way for us to validate your implementation - this could be automated testing, a reference build, whatever you’re comfortable with.
 
 ### Built With
 
@@ -52,6 +52,7 @@ For the development of this project, the main technologies I used were:
 - [Typescript](https://www.typescriptlang.org/)
 - [React Icons Kit](https://react-icons-kit.vercel.app/)
 - [React-Testing-Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Vitest](https://vitest.dev/)
 
 <!-- GETTING STARTED -->
 
@@ -84,6 +85,51 @@ npm run start
 ```
 
 4. Open the localhost at the port indicated in your terminal for example [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+
+### File structure
+
+The project folder should contain the following files:
+
+```text
+./qventus-th-custom-password-input/
+├── dist
+├── node_modules
+├── public
+│   ├── vite.svg
+├── src
+│   ├── assets
+│      ├── react.svg
+│   ├── components
+│      ├── Header.tsx
+│      ├── PasswordField.tsx
+│   ├── types
+│      ├── passwordFieldTypes.ts
+│   ├── utils
+│      ├── passwordValidations.ts
+│   ├── App.css
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   ├── vite-env.d.ts
+├── .gitignore
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+
+```
+
+<!-- USAGE EXAMPLES -->
+
+## Usage
+
+Once the project is running on the test server, you will see the password input interface with the current validations availables.
+
+Try introducing different passwords to see the validations pass according the various criteria available, and modifies the array of options passed to the password input in the App.tsx file to see the validations change in the interface.
 
 <!-- CONTRIBUTING -->
 
