@@ -13,14 +13,13 @@
 ## Table of Contents
 
 - [About the Project](#about-the-project)
-  - [Technical Specifications](#technical-specifications)
+  - [Technical Requirements](#technical-requirements)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [File structure](#file-structure)
 - [Usage](#usage)
-- [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -32,6 +31,8 @@
 Welcome to my solution proposal for the Qventus Take Home challenge! In this repository you will find my solution to the coding challenge of creating a react component that works as an password field that accept a list of password requirements.
 
 ### Technical Requirements
+
+![image1](https://github.com/user-attachments/assets/47b3ac53-6942-44b0-8499-f67b8452187b)
 
 - [x] Using the React framework
 - [x] React component should accept a list of password requirements as a prop:
