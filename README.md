@@ -82,10 +82,22 @@ npm install
 3. Run the development server:
 
 ```sh
-npm run start
+npm run dev
 ```
 
-4. Open the localhost at the port indicated in your terminal for example [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+4. Open the localhost at the port indicated in your terminal for example [http://localhost:5173/qventus-th-custom-password-input](http://localhost:5173/qventus-th-custom-password-input) with your browser to see the result.
+
+5. Create the application build
+
+```sh
+npm run build
+```
+
+7. Run tests
+
+```sh
+npm run test
+```
 
 ### File structure
 

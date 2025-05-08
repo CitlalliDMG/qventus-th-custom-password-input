@@ -31,6 +31,7 @@ function PasswordField({
           type="text"
           onChange={(e) => setPassword(e.target.value)}
           placeholder={showLabel ? label : ""}
+          id="passwordInput"
         />
       </div>
       <div className="password-validations">
@@ -38,7 +39,7 @@ function PasswordField({
           const { validationId, validationText, validator } = validation;
 
           return (
-            <div className="validation" key={validationId}>
+            <div className="validation" key={validationId} id={validationId}>
               {validator(password.trim()) ? (
                 <span className="validation-icon green">
                   <Icon size={39} icon={ic_check_circle} />
